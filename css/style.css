@@ -1,0 +1,157 @@
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Home{
+    background-image: url(../events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content ,.layer {
+   
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+#Duration{
+    height: 300px;
+}
+.menubar {
+    /* background-color: #414658; */
+    background-color: transparent;
+width: 18%;
+}
+.closebtn {
+    right: 15%;
+    
+    font-weight:bolder;
+    cursor:pointer;
+    font-size:30px
+    
+}
+.text {
+text-align: center;
+padding: 50px;
+top: 20%;
+position: absolute;
+margin-top: 50px;
+left: 33%;
+
+}
+.text h1{font-size: 50px;
+}
+.text p{font-size: 30px;}
+.opennav{
+  /* left:20%; */
+  left:2%;
+  top:50%;
+  background-color: transparent;
+    
+    font-weight:bolder;
+    cursor:pointer;
+    font-size:30px
+    
+}
+.menubar{
+    display:none;
+    background-color:  #414658;
+}
+.menubar li{
+    list-style: none;
+    margin : 40px 0px;
+    font-size: larger;
+    cursor:pointer;
+    font-weight: bolder;
+}
+  a{
+    color: white;
+  text-decoration-line: none;
+
+}
+
+.menubar  a:hover{
+    color: brown;
+}
+
+.singer-num{
+    color: white;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+ width: 100%;
+ text-align: center;
+ margin: 0%;
+ padding: 5px 150px;
+ cursor:pointer;
+ /* font-size: 24px; */
+ 
+}
+.singer-info {
+    padding: 100x;
+    background-color: #ccc;
+ margin: 0%;
+ display: none;
+
+}
+#Duration{
+    background-image: url(../invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.timer{
+  background-color:transparent;
+ margin: auto;
+ font-size: xx-large;
+ color: rgb(255, 255, 255);
+}
+.social{ cursor:pointer;
+}
+.singer-num{display: block;}
+.social :hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+input , textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+textarea{
+    height: 200px;
+}
+.formm button ,.formm button:hover{
+    display:block;
+    margin-top:20px;
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+ 
+    text-transform: uppercase
+}
+.red{
+    color: #D62E33 ;
+}
+#Contact i {
+    margin-right: 20px;
+    color: #777;
+}
+#chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+@media screen and (max-width: 800px) {
+    #Contact{
+        display: flex;
+        flex-wrap: wrap;
+     flex-direction: column;
+    }
+    #Details{
+        width: 80%;
+    }
+    #Contact .allinfo{
+        width: 100%;      
+    }
+    #Contact .formm{
+        margin-top: 0px;
+        width: 80%;
+    }
+}
